@@ -2,7 +2,7 @@ resource "google_compute_instance" "default" {
   project      = "terraform-219511"
   name         = "terraform01"
   machine_type = "n1-standard-1"
-  zone         = "europe-west3-b"
+  zone         = "europe-west3-c"
 
   boot_disk {
     initialize_params {
